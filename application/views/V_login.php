@@ -1,11 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php
-	// if (isset($this->session->userdata['logged_in'])) {
-
-	// header("location: http://localhost/halamanPeserta");
-	// };
-	?>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +7,7 @@
     <meta name="author" content="Dashboard">
     <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-    <title>Login Cermat Institute</title>
+    <title>Login E-learning</title>
 
     <!-- Bootstrap core CSS -->
     <link href="<?php echo base_url();?>assets/dist/css/bootstrap.css" rel="stylesheet">
@@ -41,9 +35,9 @@
 	  	<div class="container">
 	  	
 		      <form class="form-login" action="<?php echo site_url('halaman-peserta');?>" method="post">
-		        <h2 class="form-login-heading">Login</h2>
+		        <h2 class="form-login-heading">SIGN IN NOW</h2>
 		        <div class="login-wrap">
-		            <input type="text" class="form-control" name="username" placeholder="User ID" autofocus required>
+		            <input type="text" class="form-control" name="username" placeholder="Username" autofocus required>
 		            <input type="password" class="form-control" name="password" placeholder="Password" required>
 		            <label class="checkbox">
 		                <span class="pull-right">
@@ -55,7 +49,7 @@
 		            <div class="registration">
 		                Anda Tidak Memiliki Akun ?<br/>
 		                <a class="" href="<?php echo site_url('halaman-pendaftaran'); ?>">
-		                    Buat Akun
+		                    <b>Buat Akun</b>
 		                </a>
 		            </div>
 		
@@ -67,11 +61,11 @@
 		                  <div class="modal-content">
 		                      <div class="modal-header">
 		                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		                          <h4 class="modal-title">Forgot Password ?</h4>
+		                          <h4 class="modal-title">Lupa Password ?</h4>
 		                      </div>
 		                      <div class="modal-body">
-		                          <p>Enter your e-mail address below to reset your password.</p>
-		                          <input type="text" name="email" placeholder="Email" autocomplete="off" class="form-control placeholder-no-fix">
+		                          <p>Masukan Alamat Email Adnda Untuk Me-Reset Password</p>
+		                          <input type="text" name="email" placeholder="Email Anda" autocomplete="off" class="form-control placeholder-no-fix">
 		
 		                      </div>
 		                      <div class="modal-footer">
@@ -96,7 +90,7 @@
     <!-- You can use an image of whatever size. This script will stretch to fit in any screen size.-->
     <script type="text/javascript" src="<?php echo base_url();?>assets/dist/js/jquery.backstretch.min.js"></script>
     <script>
-        $.backstretch("<?php echo base_url();?>assets/dist/img/bg-1.jpg", {speed: 500});
+        $.backstretch("<?php echo base_url();?>assets/dist/img/bg-5.jpg", {speed: 500});
     </script>
 
 
