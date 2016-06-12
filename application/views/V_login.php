@@ -34,7 +34,7 @@
 	  <div id="login-page">
 	  	<div class="container">
 	  	
-		      <form class="form-login" action="<?php echo site_url('halaman-peserta');?>" method="post">
+		      <form class="form-login" action="<?php echo site_url('halaman-awal');?>" method="post">
 		        <h2 class="form-login-heading">SIGN IN NOW</h2>
 		        <div class="login-wrap">
 		            <input type="text" class="form-control" name="username" placeholder="Username" autofocus required>

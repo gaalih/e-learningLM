@@ -41,6 +41,7 @@
 $route['default_controller'] = "C_login";
 $route['halaman-login'] = "C_login";
 $route['halaman-pendaftaran'] = "C_registrasi";
+$route['halaman-awal'] = "C_login/beranda";
 $route['404_override'] = '';
 
 

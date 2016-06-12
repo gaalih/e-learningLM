@@ -27,13 +27,18 @@ class C_login extends CI_Controller {
                     'Logged' => TRUE
                 );
                 $this->session->set_userdata($sess_array);
-                redirect('beranda', 'refresh');
+                redirect('V_beranda', 'refresh');
             } else {
-                redirect('login', 'refresh');
+                redirect('V_login', 'refresh');
             }
         
 
         return TRUE;
+    }
+
+    public function beranda()
+    {   
+        $this->load->view('V_beranda');
     }
 
 }
