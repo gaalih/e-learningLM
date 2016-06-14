@@ -17,6 +17,56 @@ body {
     position: relative;
     top: 0;
 }
+
+/*
+ * Main navigation
+ *
+ * Turn the `.navbar` at the top of the docs purple.
+ */
+
+.fa-pencil-square-o{
+    color: #f1c40f;
+}
+
+.judul-sm{
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.bs-docs-nav {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-bottom: 5px solid #f1c40f;
+}
+.bs-home-nav .bs-nav-b {
+  display: none;
+}
+.bs-docs-nav .navbar-brand,
+.bs-docs-nav .navbar-nav > li > a {
+  color: #333;
+  font-weight: 500;
+}
+.bs-docs-nav .navbar-nav > li > a:hover,
+.bs-docs-nav .navbar-nav > .active > a,
+.bs-docs-nav .navbar-nav > .active > a:hover {
+  color: #ecf0f1;
+  background-color: #2c3e50;
+}
+.bs-docs-nav .navbar-toggle .icon-bar {
+  background-color: #563d7c;
+}
+.bs-docs-nav .navbar-header .navbar-toggle {
+  border-color: #fff;
+}
+.bs-docs-nav .navbar-header .navbar-toggle:hover,
+.bs-docs-nav .navbar-header .navbar-toggle:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+}
+
+
+
+
 h1 {
     font-size: 40px;
     font-weight: 800;
@@ -71,8 +121,14 @@ a:focus {
 .bold { font-weight: 700 }
 .light { font-weight: lighter }
 .logo { height: 60px }
+
+.navbar-right li a{
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
 #header {
-    background-color: #494949;
+    background-color: #34495E;
+    margin-top: 4%;
     color: #ffffff;
     padding: 20px;
 }
@@ -140,7 +196,7 @@ span.t-position {
     margin-bottom: 20px;
 }
 .t-style2:hover {
-    border: 1px solid #ea6060;
+    border: 1px solid #f1c40f;
     padding-bottom: 20px;
     margin-bottom: 20px;
     -webkit-transition: all 0.5s;
@@ -159,7 +215,7 @@ span.t-position {
     background-color: #565d67;
 }
 .t-style2:hover >.t-social2 {
-    background-color: #ea6060;
+    background-color: #f1c40f;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     transition: all 0.5s;
@@ -178,7 +234,8 @@ span.t-position {
     padding: 6px;
     width: 30px;
     height: 30px;
-    border: 1.5px solid #ffffff;
+    color: #2c3e50;
+    border: 1.5px solid #2c3e50;
     border-radius: 5px;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
