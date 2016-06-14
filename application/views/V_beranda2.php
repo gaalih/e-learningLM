@@ -21,6 +21,7 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css"  href="<?php echo base_url('assets/bootstrap/css/bootstrap.css'); ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap/font-awesome-4.2.0/css/font-awesome.css'); ?>">
+    <!-- <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/bootstrap/css/docs.css'); ?>"> -->
 
     <link href="<?php echo base_url('assets/bootstrap/css/owl.carousel.css'); ?>" rel="stylesheet" media="screen">
     <link href="<?php echo base_url('assets/bootstrap/css/owl.theme.css'); ?>" rel="stylesheet" media="screen">
@@ -42,32 +43,53 @@
     <![endif]-->
   </head>
   <body>
+
+  <header class="navbar navbar-fixed-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">E-learning</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Belajar</a></li>
+        <li><a href="">Ujian Akhir</a></li>
+        <li class="active"><a href="">LogOut</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
     <div id="header" class="text-center">
-        <img src="<?php echo base_url('assets/bootstrap/img/logo.png'); ?>" class="logo" alt="...">
-        <h1>ThemeForces Freebie #1</h1>
-        <h4>Free - Flat Minimal UI Kit</h4>
+        
+        <h1><i class="fa fa-pencil-square-o fa-2x"></i> e-learning <small class="judul-sm">listrik magnet.com</small></h1>
+        
     </div>
 
   <!-- Team Section -->
   <section id="team">
 
     <div class="title">
-        <h2>Team</h2>
+
     </div>
 
     <div class="container"> <!-- Container -->  
         <div class="row">
             <div class="col-md-4 col-sm-4 col-lg-4">
                 <div class="t-style2">
-                    <img src="img/team/2.jpg" class="img-responsive" alt="...">
-                    <h4>JENN LYN  <span class="t-position">/ Founder & CEO</span></h4>
+                    <h3>Mulai Belajar</span></h3>
+                    <i class="fa fa-pencil fa-3x"></i>
+                    <br>
+                    <br>
                     <div class="t-social2"> <!-- Developer's Social Connect -->
-                        <a href="#"><i class="fa fa-linkedin tsocial"></i></a> <!-- Replace # with Your Linkedin URL -->
-                        <a href="#"><i class="fa fa-facebook tsocial"></i></a> <!-- Replace # with Your Facebook URL -->
-                        <a href="#"><i class="fa fa-google-plus tsocial"></i></a> <!-- Replace # with Your Google + URL -->
-                        <a href="#"><i class="fa fa-pinterest tsocial"></i></a> <!-- Replace # with Your Pinterest URL -->
-                        <a href="#"><i class="fa fa-dribbble tsocial"></i></a> <!-- Replace # with Your Dribbble URL -->
-                        <a href="#"><i class="fa fa-twitter tsocial"></i></a> <!-- Replace # with Your Twitter URL -->
+                        
                     </div>
                     <div class="t-caption2">
                     <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
@@ -75,41 +97,36 @@
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-lg-4 padding">
-              <div class="t-style2">
-                <img src="img/team/2.jpg" class="img-responsive" alt="...">
-                  <h4>JENN LYN  <span class="t-position">/ Founder & CEO</span></h4>
-                  <div class="t-social2"> <!-- Developer's Social Connect -->
-                        <a href="#"><i class="fa fa-linkedin tsocial"></i></a> <!-- Replace # with Your Linkedin URL -->
-                        <a href="#"><i class="fa fa-facebook tsocial"></i></a> <!-- Replace # with Your Facebook URL -->
-                        <a href="#"><i class="fa fa-google-plus tsocial"></i></a> <!-- Replace # with Your Google + URL -->
-                        <a href="#"><i class="fa fa-pinterest tsocial"></i></a> <!-- Replace # with Your Pinterest URL -->
-                        <a href="#"><i class="fa fa-dribbble tsocial"></i></a> <!-- Replace # with Your Dribbble URL -->
-                        <a href="#"><i class="fa fa-twitter tsocial"></i></a> <!-- Replace # with Your Twitter URL -->
-                  </div>
-                  <div class="t-caption2">
-                  <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
-                  </div>
+            <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="t-style2">
+                    <h3>Rekap Nilai</span></h3>
+                    <i class="fa fa-book fa-3x"></i>
+                    <br>
+                    <br>
+                    <div class="t-social2"> <!-- Developer's Social Connect -->
+                       
+                    </div>
+                    <div class="t-caption2">
+                    <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
+                    </div>
                 </div>
             </div>
 
-            <div class="col-md-4 col-sm-4 col-lg-4 padding">
-              <div class="t-style2">
-                <img src="img/team/2.jpg" class="img-responsive" alt="...">
-                  <h4>JENN LYN  <span class="t-position">/ Founder & CEO</span></h4>
-                  <div class="t-social2"> <!-- Developer's Social Connect -->
-                        <a href="#"><i class="fa fa-linkedin tsocial"></i></a> <!-- Replace # with Your Linkedin URL -->
-                        <a href="#"><i class="fa fa-facebook tsocial"></i></a> <!-- Replace # with Your Facebook URL -->
-                        <a href="#"><i class="fa fa-google-plus tsocial"></i></a> <!-- Replace # with Your Google + URL -->
-                        <a href="#"><i class="fa fa-pinterest tsocial"></i></a> <!-- Replace # with Your Pinterest URL -->
-                        <a href="#"><i class="fa fa-dribbble tsocial"></i></a> <!-- Replace # with Your Dribbble URL -->
-                        <a href="#"><i class="fa fa-twitter tsocial"></i></a> <!-- Replace # with Your Twitter URL -->
-                  </div>
-                  <div class="t-caption2">
-                  <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
-                  </div>
+            <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="t-style2">
+                    <h3>Ujian Akhir</span></h3>
+                    <i class="fa fa-check-square-o fa-3x"></i>
+                    <br>
+                    <br>
+                    <div class="t-social2"> <!-- Developer's Social Connect -->
+                        
+                    </div>
+                    <div class="t-caption2">
+                    <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
+                    </div>
                 </div>
             </div>
+
         </div>       
     </div> <!-- End Container -->
 
@@ -601,17 +618,17 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/jquery.1.11.1.js'); ?>"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/bootstrap.js'); ?>"></script>
 
-    <script src="js/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/SmoothScroll.js"></script>  
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script src="<?php echo base_url('assets/bootstrap/js/owl.carousel.js'); ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/SmoothScroll.js'); ?>"></script>  
+    <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/custom.js'); ?>"></script>
 
     <!-- Javascripts
     ================================================== -->
-    <script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/custom.js'); ?>"></script>
 
   </body>
 </html>
