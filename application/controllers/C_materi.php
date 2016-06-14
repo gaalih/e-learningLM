@@ -2,9 +2,9 @@
 
 class C_materi extends CI_Controller {
 
-    function __construct() {
+    function index(){
+        $this->load->view('V_materi');
         
     }
-
 }
 
