@@ -28,7 +28,7 @@
         <!-- Stylesheet
         ================================================== -->
         <link rel="stylesheet" type="text/css"  href="<?php echo base_url('assets/bootstrap/css/style.css'); ?>">
-        <link href="<?php echo base_url('assets/dist/css/docs.css'); ?>" rel="stylesheet">
+        <link href="<?php // echo base_url('assets/dist/css/docs.css'); ?>" rel="stylesheet">
         <script type="text/javascript" src="<?php echo base_url('assets/bootstrap/js/modernizr.custom.js'); ?>"></script>
 
         <!--Google Font-->
@@ -42,38 +42,33 @@
         <![endif]-->
     </head>
     <body>
-        <header class="navbar navbar-static-top bs-docs-nav" id="top" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#" class="navbar-brand">E-learning</a>
-                </div>
-                <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="">Belajar</a></li>
-                        <li><a href="">Ujian Akhir</a></li>
-                        <li class="active"><a href="">LogOut</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <!--        <div id="header"  class="text-center">
-                    <img src="<?php echo base_url('assets/bootstrap/img/logo.png'); ?>" class="logo" alt="...">
-                    <h1>Listrik Statis #1</h1>
-                    <h4>Penjelasan listrik statis</h4>
-                </div>-->
+        <header class="navbar navbar-fixed-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a href="<?= site_url("halaman-awal")?>" class="navbar-brand">E-learning</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="">Belajar</a></li>
+        <li><a href="">Ujian Akhir</a></li>
+        <li class="active"><a href="">LogOut</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
         <!-- Team Section -->
         <section id="team">
 
             <div class="col-lg-8" style="margin-top: 80px;margin-bottom: 20px;">
-                <h2>Kelistrikan</h2>
+                <h2>Kelistrikan </h2>
             </div>
 
             <div class="container"> <!-- Container -->  
@@ -91,7 +86,6 @@
                         demikian batang plastik, penggaris plastik dan batang kaca dikatakan telah 
                         memiliki muatan listrik. Bagaimana benda-benda tersebut bisa menjadi 
                         bermuatan? Untuk mengetahui muatan listrik lakukan ekperimen sederhana berikut:</p>
-                
                 </div>
                 <!--<div class="4">-->
                 
@@ -157,28 +151,8 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-4 col-sm-4 col-lg-4">
-                        <div class="team">
-                            <img src="img/team/1.jpg" class="img-responsive" alt="...">
-                            <div class="t-caption">
-                                <h4>Errol Luke  <span class="t-position">/ Web Designer</span></h4>
-                                <div class="t-social"> <!-- Developer's Social Connect -->
-                                    <a href="#"><i class="fa fa-linkedin tsocial"></i></a> <!-- Replace # with Your Linkedin URL -->
-                                    <a href="#"><i class="fa fa-facebook tsocial"></i></a> <!-- Replace # with Your Facebook URL -->
-                                    <a href="#"><i class="fa fa-google-plus tsocial"></i></a> <!-- Replace # with Your Google + URL -->
-                                    <a href="#"><i class="fa fa-pinterest tsocial"></i></a> <!-- Replace # with Your Pinterest URL -->
-                                    <a href="#"><i class="fa fa-dribbble tsocial"></i></a> <!-- Replace # with Your Dribbble URL -->
-                                    <a href="#"><i class="fa fa-twitter tsocial"></i></a> <!-- Replace # with Your Twitter URL -->
-                                </div>
-                                <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team"></div>
-                    <div class="col-sm-12" style="padding-left: -100px ;font-size: 80px">
-                        <a href="#"><span class="fa fa-arrow-circle-left pull-left"></span></a>
-                        <a></a><span class="fa fa-arrow-circle-right pull-right"></span>
+                    <div class="col-sm-12" style="font-size: 80px; margin-left:80px ">
+                        <a href="#"><span class="fa fa-arrow-circle-right "></span></a>
                     </div>
                 </div> <!-- End Row -->
             </div> <!-- End Container Fluid -->
@@ -199,13 +173,6 @@
 </section>
 
 <div class="space"></div> <!-- 40px Vertical Spacing -->
-
-<nav class="footer">
-    <div class="container">
-        <h2>This is a Free Resource <br>Made With Love by <a href="http://themeforces.com/">ThemeForces.Com</a></h2>
-        <h5>Subscribe To Our Website For More Freebies and <br><a href="http://themeforces.com/">Premium WordPress and Bootstrap Templates</a></h5>
-    </div>
-</nav>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
