@@ -51,13 +51,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a href="<?= site_url("halaman-awal")?>" class="navbar-brand">E-learning</a>
+      <a href="#" class="navbar-brand">E-learning</a>
     </div>
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="">Belajar</a></li>
-        <li><a href="">Ujian Akhir</a></li>
+        <li><a href="<?php echo site_url('halaman-awal'); ?>">Home</a></li>
+        <li class="active"><a href="">Mulai Belajar</a></li>
         <li class="active"><a href="">LogOut</a></li>
       </ul>
     </nav>

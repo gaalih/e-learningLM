@@ -58,9 +58,11 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#fitur">Fitur</a></li>
+        <li><a href="">Home</a></li>
+        <li><a href="#fitur">Fitur</a></li>
         <li><a href="#tentang">Tentang E-learning</a></li>
         <li><a href="#cara">Cara Mengerjakan</a></li>
+        <li><a href="<?php echo site_url('materi'); ?>">Mulai Belajar</a></li>
         <li class="active"><a href="">LogOut</a></li>
       </ul>
     </nav>
@@ -84,6 +86,7 @@
     <div class="container"> <!-- Container -->  
         <div class="row">
             <div class="col-md-4 col-sm-4 col-lg-4">
+                <a href="<?php echo site_url('materi'); ?>">
                 <div class="t-style2">
                     <h3>Mulai Belajar</span></h3>
                     <i class="fa fa-pencil fa-3x"></i>
@@ -95,10 +98,12 @@
                     <div class="t-caption2">
                     <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
                     </div>
-                </div>
+                </div></a>
+                
             </div>
 
             <div class="col-md-4 col-sm-4 col-lg-4">
+                <a href="">
                 <div class="t-style2">
                     <h3>Rekap Nilai</span></h3>
                     <i class="fa fa-book fa-3x"></i>
@@ -110,10 +115,11 @@
                     <div class="t-caption2">
                     <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
                     </div>
-                </div>
+                </div></a>
             </div>
 
             <div class="col-md-4 col-sm-4 col-lg-4">
+                <a href="">
                 <div class="t-style2">
                     <h3>Ujian Akhir</span></h3>
                     <i class="fa fa-check-square-o fa-3x"></i>
@@ -125,7 +131,7 @@
                     <div class="t-caption2">
                     <h6>Epsum factorial non deposit quid pro quo hic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Olypian quarrels et gorilla congolium sic ad nauseum.</h6>
                     </div>
-                </div>
+                </div> </a>
             </div>
 
         </div>       
