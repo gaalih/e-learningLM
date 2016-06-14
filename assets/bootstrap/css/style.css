@@ -139,10 +139,13 @@ a:focus {
 nav.footer {
     padding: 40px;
     text-align: center;
+    background-color: #2c3e50;
+    color: #f1c40f;
 }
-#team,
-#features,
-#testimonial,
+
+#fitur,
+#tentang,
+#cara,
 #pricing,
 #promo,
 #button {
@@ -151,9 +154,9 @@ nav.footer {
     text-align: center;
 }
 /***************************
-******** Team ********
+******** Fitur ********
 ***************************/
-#team h6 { color: #888888 }
+#fitur h6 { color: #888888 }
 .team {
     text-align: center;
     margin-bottom: 20px;
@@ -243,7 +246,7 @@ span.t-position {
     -webkit-font-smoothing: antialiased;
 }
 /***************************
-******** Features ********
+******** tentang ********
 ***************************/
 .feature {
     text-align: center;
@@ -264,11 +267,11 @@ span.t-position {
     -webkit-font-smoothing: antialiased;
 }
 .icon-holder {
-    width: 166px;
-    height: 166px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #424242;
     border-radius: 4px;
-    padding: 50px;
+    padding: 10px;
     margin-bottom: 30px;
 }
 .f-style2 {
@@ -296,7 +299,7 @@ span.t-position {
     -webkit-font-smoothing: antialiased;
 }
 /***************************
-******** Testimonial ********
+******** cara ********
 ***************************/
 #owl-testimonial .item {
     display: block;
