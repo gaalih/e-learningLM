@@ -38,7 +38,7 @@ class C_login extends CI_Controller {
 
     public function beranda()
     {   
-        $this->load->view('V_beranda');
+        $this->load->view('V_beranda2');
     }
 
 }
