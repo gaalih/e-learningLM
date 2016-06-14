@@ -151,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12" style="font-size: 80px; margin-left:80px ">
+                    <div class="col-sm-12" style="font-size: 80px; margin-left:500px ">
                         <a href="#"><span class="fa fa-arrow-circle-right "></span></a>
                     </div>
                 </div> <!-- End Row -->
