@@ -67,7 +67,7 @@
         <!-- Team Section -->
         <section id="team">
 
-            <div class="col-lg-8" style="margin-top: 80px;margin-bottom: 20px;">
+            <div class="col-lg-8" style="margin-top: 80px;margin-bottom: 20px; text-align: center">
                 <h2>Kelistrikan </h2>
             </div>
 
